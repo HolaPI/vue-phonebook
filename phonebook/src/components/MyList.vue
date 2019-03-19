@@ -37,6 +37,7 @@ export default {
         }
     },
     methods : {
+        //filter index from userData
         filterIndex : function(data){
             var result = [];
             for(var i = 0, len = data.length; i < len; i ++){
@@ -94,6 +95,7 @@ export default {
 #list .user_list p{
     background-color: #ccc;
     padding: 3px 6px;
+    font-weight: bold;
 }
 #list .user_list ul li{
     height: 40px;
@@ -106,6 +108,7 @@ export default {
     right: 8px;
     top: 50%;
     font-size: 20px;
+    opacity: 0.8;
 }
 #list .user_index li{
     margin: 5px 0px;
